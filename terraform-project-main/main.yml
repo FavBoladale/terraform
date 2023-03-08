@@ -1,0 +1,16 @@
+- name: Install and configure web-servers
+  hosts: all
+  become: true
+  remote_user: ubuntu
+
+
+  tasks:
+    - name: "wait 360 seconds for target connection to become reachable/usable."
+      ansible.builtin.pause:
+        minutes: 6
+
+
+    - include_role:
+        name: servers
+
+
