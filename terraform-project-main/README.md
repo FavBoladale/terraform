@@ -20,6 +20,6 @@ The script also runs ansible command to configure the virtual machines.
 - `terraform apply`
 
 ### NOTE
-- `Domain name- royalboe.live`
+- `Domain name- favboladale.live`
 - `subdomain name- terraform-test`
-- `Link - http://terraform-test.royalboe.live`
+- `Link - http://terraform-test.favboladale.live`
